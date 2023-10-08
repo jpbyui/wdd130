@@ -70,6 +70,9 @@ footer a {
 footer a:hover {
     color: #a8d124;
 }
+main {
+    text-align: center;
+}
 
 footer p {
     font-size: 1.2em;
