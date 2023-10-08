@@ -5,14 +5,33 @@
 
 #background {
     height: 725px;
+    background-color: #1063ac;
 }
 
 body {
-    background-color: #fbfbfc; 
+    background-color: #080354; 
 }
 header {
-    background-color:rgba(13, 24, 30, 0.7);
+    background-color:rgba(38, 12, 105, 0.7);
 }
 nav a:hover {
-    background-color: rgba(0, 0, 0, 0.296);
+    background-color: rgba(55, 12, 119, 0.244);
+}
+
+.book, .join {
+    background-color: #09629d;
+}
+
+.book:hover, .join:hover {
+    background-color: #15278c;
+}
+
+.msg {
+    background-color: #1a23a2;
+    color: #709308;
+}
+
+footer {
+    background-color: #0e4f6f; 
+    color: #030213;
 }
