@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Josefin+Slab:wght@300&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,10 +9,12 @@
     width: 80px;
     height: 80px;
     background-color: whitesmoke;
+    padding-top: 5px;
   }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -20,6 +25,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
   }
 
 nav a:hover {
@@ -37,9 +43,12 @@ nav a:hover {
   }
   
 main section {
-    text-align: center;
+    text-align: center;    
   }
 
+main section img {
+    box-sizing: border-box;
+  }
 
 
 #home-grid img {
@@ -50,6 +59,8 @@ main section {
 .card-img{
     width: 720px;
     height: auto;
+    border: 10px solid #084C61;
+
 }
 
 #background {
@@ -60,6 +71,10 @@ main section {
 
 body {
     background-color: #177E89; 
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    margin: 0;
+    padding:0;
   }
   
   
@@ -73,6 +88,10 @@ header {
     background-color: #084C61; 
     color: white; 
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
   
   
@@ -85,28 +104,39 @@ header {
 .msg {
     background-color: #FFC857; 
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white; 
+    font-family: 'EB Garamond', serif;
 }
   
   
 .msg p {
     color: white; 
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .home-title {
     color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
   
 footer {
     background-color: #084C61;
     color: white; 
+    padding: 25px 50px;
 }
 
 footer img{
     width: 30px;
+    padding-top: 15px;
 }
 
 footer a {
@@ -127,3 +157,10 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    margin: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card, footer {
+    margin: 200px 0;
+}
